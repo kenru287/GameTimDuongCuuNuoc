@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shopp"
+    android:orientation="vertical"
+    tools:context=".ShopActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textview_border">
+
+        <Button
+            android:id="@+id/btnMua"
+            android:textAllCaps="false"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/font_fvf"
+            android:gravity="center"
+            android:text="Mua"
+            android:textSize="15dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="135dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/font_fvf"
+            android:text="Thoát"
+            android:textSize="15dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/Nen2"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textview_border"
+        android:alpha="0">
+
+        <Button
+            android:id="@+id/btnManaNho"
+            android:layout_width="135dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/font_fvf"
+            android:gravity="center"
+            android:text="Lương khô 15Đ"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnManaLon"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btnManaNho"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/font_fvf"
+            android:gravity="center"
+            android:text="Lương khô lớn 50Đ"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnBangGac"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/font_fvf"
+            android:gravity="center"
+            android:text="Băng gạc 15Đ"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnTuiMau"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btnBangGac"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/font_fvf"
+            android:gravity="center"
+            android:text="Túi máu 50Đ"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            android:background="@drawable/border"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Nen3_MoTa"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textview_border"
+        android:alpha="0">
+
+        <ImageView
+            android:id="@+id/igvMoTa"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="-30dp"/>
+
+        <TextView
+            android:id="@+id/txtMoTa"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="95dp"
+            android:gravity="center"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnMuaVatPham"
+        android:textAllCaps="false"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="195dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/font_fvf"
+        android:gravity="center"
+        android:text="Mua"
+        android:textSize="15dp"
+        android:background="@drawable/border"
+        android:alpha="0"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textview_border"
+        android:gravity="center"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="Bạn không đủ tiền"
+        android:alpha="0"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/textview_border"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_fvf"
+            android:text="Tiền:"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/Tien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/txtTien"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/Tien"
+            android:text="Đ"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</LinearLayout>

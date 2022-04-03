@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/savegame">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="@font/font_fvf"
+                android:text="Chọn màn lưu game"
+                android:textColor="#E2EDD2AA"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnChoiMoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="@font/font_fvf"
+            android:text="Chơi mới"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#EB956114"
+            android:background="@drawable/button_savegame"/>
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnSave1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/button_savegame"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text="Ngày chơi: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txtngaychoi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="Tiến trình: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txtngaygame1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="15dp"
+                android:text="Số tiền: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txttien1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Đ"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"
+                android:layout_toRightOf="@+id/txttien1" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnSave2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/button_savegame"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text="Ngày chơi: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txtngaychoi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="Tiến trình: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txtngaygame2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="15dp"
+                android:text="Số tiền: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txttien2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Đ"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"
+                android:layout_toRightOf="@+id/txttien2" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnSave3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/button_savegame"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text="Ngày chơi: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txtngaychoi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="Tiến trình: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txtngaygame3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="15dp"
+                android:text="Số tiền: "
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txttien3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Đ"
+                android:fontFamily="@font/font_fvf"
+                android:textSize="12sp"
+                android:layout_toRightOf="@+id/txttien3" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

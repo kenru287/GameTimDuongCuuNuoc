@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:background="#F1744D"
+    tools:context=".Match3Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/clock"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            tools:text="1:00"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/tongdiem"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/muctieu" />
+
+        <ImageView
+            android:id="@+id/igvMucTieu1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="35dp" />
+        <TextView
+            android:id="@+id/score1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/igvMucTieu3"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/font_fvf"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/finish1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="35dp"
+            android:layout_toEndOf="@id/igvMucTieu1"
+            android:src="@drawable/check" />
+
+        <ImageView
+            android:id="@+id/igvMucTieu3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toEndOf="@+id/finish1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="35dp" />
+        <TextView
+            android:id="@+id/score3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/igvMucTieu3"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/font_fvf"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/finish3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_toEndOf="@+id/igvMucTieu3"
+            android:layout_marginStart="3dp"
+            android:src="@drawable/check" />
+
+        <ImageView
+            android:id="@+id/igvMucTieu2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="65dp" />
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/igvMucTieu4"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="62dp"
+            android:fontFamily="@font/font_fvf"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/finish2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="65dp"
+            android:layout_toEndOf="@id/igvMucTieu2"
+            android:src="@drawable/check" />
+
+        <ImageView
+            android:id="@+id/igvMucTieu4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="65dp"
+            android:layout_toEndOf="@+id/finish2" />
+        <TextView
+            android:id="@+id/score4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/igvMucTieu4"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="62dp"
+            android:fontFamily="@font/font_fvf"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/finish4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@id/igvMucTieu4"
+            android:src="@drawable/check"/>
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/board"
+        android:background="@color/design_default_color_surface"
+        android:orientation="horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="155dp"
+            android:layout_height="120dp">
+            <Button
+                android:id="@+id/btnBigBang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Chân Lý Mặt Trời"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/font_fvf"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/button_skillbigbang"
+                android:drawableTop="@drawable/skill_bigbang"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/igvManaBigBang1"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="7dp"
+            android:src="@drawable/thanh_trong1" />
+        <ImageView
+            android:id="@+id/igvManaBigBang2"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaBigBang1"
+            android:src="@drawable/thanh_trong2" />
+        <ImageView
+            android:id="@+id/igvManaBigBang3"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaBigBang2"
+            android:src="@drawable/thanh_trong2" />
+        <ImageView
+            android:id="@+id/igvManaBigBang4"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaBigBang3"
+            android:src="@drawable/thanh_trong3" />
+
+        <ImageView
+            android:id="@+id/igvManaBigBang1_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="7dp"/>
+        <ImageView
+            android:id="@+id/igvManaBigBang2_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaBigBang1" />
+        <ImageView
+            android:id="@+id/igvManaBigBang3_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaBigBang2" />
+        <ImageView
+            android:id="@+id/igvManaBigBang4_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaBigBang3" />
+
+        <ImageView
+            android:id="@+id/igvManaBigBang_1"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/igvManaBigBang1"
+            android:src="@drawable/mana_0"/>
+        <ImageView
+            android:id="@+id/igvManaBigBang_2"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/igvManaBigBang2"
+            android:src="@drawable/mana_0"/>
+        <ImageView
+            android:id="@+id/igvManaBigBang_3"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/igvManaBigBang3"
+            android:src="@drawable/mana_0"/>
+
+        <RelativeLayout
+            android:layout_width="158dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/layout1">
+            <Button
+                android:id="@+id/btnStopTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Khoảng Khắc Dũng Cảm"
+                android:textSize="9sp"
+                android:fontFamily="@font/font_fvf"
+                android:textColor="#E2EDD2AA"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/button_skillstoptime"
+                android:drawableTop="@drawable/skill_stoptime"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/igvManaStopTime1"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/layout1"
+            android:layout_marginStart="19dp"
+            android:src="@drawable/thanh_trong1" />
+        <ImageView
+            android:id="@+id/igvManaStopTime2"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaStopTime1"
+            android:src="@drawable/thanh_trong2" />
+        <ImageView
+            android:id="@+id/igvManaStopTime3"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaStopTime2"
+            android:src="@drawable/thanh_trong2" />
+        <ImageView
+            android:id="@+id/igvManaStopTime4"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaStopTime3"
+            android:src="@drawable/thanh_trong3" />
+
+        <ImageView
+            android:id="@+id/igvManaStopTime1_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/layout1"
+            android:layout_marginStart="19dp" />
+
+        <ImageView
+            android:id="@+id/igvManaStopTime2_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaStopTime1" />
+
+        <ImageView
+            android:id="@+id/igvManaStopTime3_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaStopTime2" />
+
+        <ImageView
+            android:id="@+id/igvManaStopTime4_fill"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@+id/igvManaStopTime3" />
+
+        <ImageView
+            android:id="@+id/igvManaStopTime_1"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/igvManaStopTime1"
+            android:src="@drawable/mana_0"/>
+
+        <ImageView
+            android:id="@+id/igvManaStopTime_2"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/igvManaStopTime2"
+            android:src="@drawable/mana_0"/>
+
+        <ImageView
+            android:id="@+id/igvManaStopTime_3"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="-3dp"
+            android:layout_toEndOf="@+id/igvManaStopTime3"
+            android:src="@drawable/mana_0"/>
+
+    </RelativeLayout>
+</LinearLayout>

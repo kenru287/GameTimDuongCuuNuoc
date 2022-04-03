@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhNam19141915">
+
+<!--    Nền đen-->
+    <TextView
+        android:id="@+id/txtNenDen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        />
+
+<!--    Phần 5-->
+    <TextView
+        android:id="@+id/txtPhanNam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Phần 5"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/font_fvf"
+        android:alpha="0"
+        />
+
+    <!--    Nội dung dẫn truyện-->
+    <TextView
+        android:id="@+id/txtNoiDungDanTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Trong ba năm tiếp theo khi hoạt động ở Anh, Nguyễn Tất Thành vẫn liên tục gửi thư để thông báo và liên lạc nắm giữ hoạt động của mình."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/font_fvf"
+        android:alpha="0"
+        />
+
+<!--    Tiếp tục chuyển cảnh-->
+    <TextView
+        android:id="@+id/txtTiepTucChuyenCanh"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Tiếp tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        android:gravity="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="550dp"
+        />
+</RelativeLayout>

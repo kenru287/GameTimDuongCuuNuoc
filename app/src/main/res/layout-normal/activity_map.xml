@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nenbien_map"
+    tools:context=".MapActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="-4dp"
+                android:src="@drawable/nenddmmyyyy" />
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="Ngày: 2 Tháng: 6 Năm: 1911"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font_2p"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/idmap"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/map">
+
+                <ImageView
+                    android:id="@+id/imagemoc1"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="315dp"
+                    android:layout_marginTop="117dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imagemoc2"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="315dp"
+                    android:layout_marginTop="135dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imagemoc3"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="290dp"
+                    android:layout_marginTop="121dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imagemoc3_4"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="117dp"
+                    android:src="@drawable/mocdo"
+                    android:alpha="0"/>
+
+                <ImageView
+                    android:id="@+id/imagemoc4"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="86dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imagemoc5"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="67dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imagemoc5_6_1"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="185dp"
+                    android:layout_marginTop="80dp"
+                    android:src="@drawable/mocdo"
+                    android:alpha="0"/>
+
+                <ImageView
+                    android:id="@+id/imagemoc5_6_2"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="183dp"
+                    android:layout_marginTop="66dp"
+                    android:src="@drawable/mocdo"
+                    android:alpha="0"/>
+
+                <ImageView
+                    android:id="@+id/imagemoc6"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="196dp"
+                    android:layout_marginTop="57dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imagemoc7"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="202dp"
+                    android:layout_marginTop="47dp"
+                    android:src="@drawable/mocdo" />
+
+                <ImageView
+                    android:id="@+id/imageship"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="315dp"
+                    android:layout_marginTop="117dp"
+                    android:src="@drawable/thuyen"/>
+
+                <ImageView
+                    android:id="@+id/imageship2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="310dp"
+                    android:layout_marginTop="132dp"
+                    android:src="@drawable/thuyen"/>
+                <ImageView
+                    android:id="@+id/imageship3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="290dp"
+                    android:layout_marginTop="120dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship3_4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginTop="111dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginTop="79dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="199dp"
+                    android:layout_marginTop="67dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship5_6_1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="76dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship5_6_2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship6"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginStart="192dp"
+                    android:layout_marginTop="53dp"
+                    android:src="@drawable/thuyen" />
+
+                <ImageView
+                    android:id="@+id/imageship7"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="43dp"
+                    android:src="@drawable/thuyen" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <TextView
+                android:id="@+id/txtQuocGia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_fvf"
+                android:text="Viet Nam"
+                android:textSize="13sp"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/igvBen"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/nenbien" />
+
+            <ImageView
+                android:id="@+id/thuyenbien"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/thuyen_bien"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <RelativeLayout
+            android:id="@+id/frame_cottruyen"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/frame_cottruyen"
+            android:alpha="0">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/txtxinviec"
+                android:fontFamily="@font/font_fvf"
+                android:textColor="@color/white"
+                android:textSize="17sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

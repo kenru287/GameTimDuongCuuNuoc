@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhDenAnh">
+
+<!-- Hoạt cảnh -->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifHoatCanhAnh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-350dp"
+        android:background="#636363"
+        android:src="@drawable/canhdenanh"
+        />
+
+<!--    Ngày tháng-->
+    <TextView
+        android:id="@+id/txtNgayThang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Năm 1913"
+        android:textSize="25dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        />
+
+<!--    Hội thoại-->
+    <TextView
+        android:id="@+id/txtKhungNoiDung"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:alpha="0"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/textview_border_gray"
+        />
+
+<!--    Nội dung hội thoại-->
+    <TextView
+        android:id="@+id/txtNoiDungCanhMot"
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:text="Sau khi đến nước Anh, để sinh sống, anh nhận cào tuyết cho một trường học. Công việc quá vất vả mệt nhọc, anh đành phải bỏ việc."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:alpha="0"
+        />
+
+<!--    Tiếp tục-->
+    <TextView
+        android:id="@+id/txtTiepTuc"
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="270dp"
+        android:text="Tiếp Tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:alpha="0"
+        />
+
+<!--Khung nội dung hai-->
+    <TextView
+        android:id="@+id/txtKhungNoiDungHai"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:alpha="1"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/textview_border_gray"
+        />
+
+    <!--    Nội dung hội thoại hai-->
+    <TextView
+        android:id="@+id/txtNoiDungCanhHai"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:text="Anh tìm được một việc khác là đốt lò. Từ 5 giờ sáng, anh đã phải chui xuống hầm để nhóm lửa, suốt ngày đổ than, thay than trong lò, sống trong cảnh tranh tối tranh sáng, ngột ngạt đáng sợ."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:alpha="1"
+        />
+    <!--    Tiếp tục-->
+    <TextView
+        android:id="@+id/txtTiepTucHai"
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="275dp"
+        android:text="Tiếp Tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:alpha="1"
+        />
+
+<!--    Anh-->
+    <TextView
+        android:id="@+id/txtChuyenCanh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#636363"
+        android:text="Anh"
+        android:textSize="50dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:alpha="0"
+        />
+
+</RelativeLayout>

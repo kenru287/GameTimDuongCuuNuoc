@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhBacLamONhaBep">
+
+<!--    Nền cảnh nói chuyện trong bếp-->
+    <TextView
+        android:id="@+id/txtNenCanhNoiTrongBep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#464646"
+
+        android:text="Khoảng cuối năm, Năm 1913"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="18dp"
+        />
+
+    <!--    Cảnh Nói chuyện trong bếp-->
+    <ImageView
+        android:id="@+id/igvCanhNoiTrongBep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/canhnhahang"
+
+        android:layout_marginTop="-250dp"
+        />
+
+
+    <!--    Khung hội thoại tam giác-->
+
+    <!--    Khung hội thoại-->
+    <TextView
+        android:id="@+id/txtKhungNoiDungTamGiac"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="200dp"
+        android:alpha="1"
+        android:background="@drawable/shape_triangle" />
+
+<!--    Khung nội dung-->
+    <TextView
+        android:id="@+id/txtKhungNoiDung"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="6dp"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:background="@drawable/textview_border_gray"
+        android:alpha="1"
+        />
+
+<!--    Nội dung hội thoại-->
+    <TextView
+        android:id="@+id/txtNoiDungHoiThoaiMot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="15dp"
+        android:text="Tại sao anh không quẳng thức ăn thừa vào thùng như những người khác?"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="1"
+        />
+
+    <!--    Nội dung hội thoại hai-->
+    <TextView
+        android:id="@+id/txtNoiDungHoiThoaiHai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="15dp"
+        android:text="Không nên vứt đi. Ông có thể cho người nghèo những thứ ấy."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        />
+
+    <!--    Nội dung hội thoại ba-->
+    <TextView
+        android:id="@+id/txtNoiDungHoiThoaiBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="15dp"
+        android:text="Tạm thời anh hãy gác ý nghĩ cách mạng của anh lại một bên, và tôi sẽ dạy cho anh cách làm bếp, làm ngon và anh sẽ được nhiều tiền."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        />
+
+<!--    Tiếp tục-->
+    <TextView
+        android:id="@+id/txtTiepTucHoiThoai"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Tiếp tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="1"
+        android:gravity="center"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="590dp"
+        />
+
+    <!--    Nền đen-->
+<!--    Chú ý bật alpha = 1-->
+    <TextView
+        android:id="@+id/txtNenDen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"
+        />
+
+    <!--Nội dung thứ nhất_ chuyển cảnh-->
+    <TextView
+        android:id="@+id/txtNoiDungThuNhat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/black"
+
+        android:text="Sau hai tuần nghỉ việc đốt lò vì bị cảm, Nguyễn Tất Thành đến làm thuê ở khách sạn Đraytơn Cơớc, đại lộ Đraytơn, khu Oét Ilinh, Tây Luân Đôn."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:alpha="0"
+        />
+
+    <!--    Nội dung thứ hai_chuyển cảnh-->
+    <TextView
+        android:id="@+id/txtNoiDungThuHai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Một thời gian sau, Nguyễn Tất Thành lại chuyển sang làm phụ bếp ở khách sạn Cáclơtơn, phố Hây Makét, một khách sạn sang nổi tiếng ở Luân Đôn. Anh làm việc dưới sự điều khiển của vua đầu bếp người Pháp Étcốpphie."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:alpha="0"
+        />
+
+    <!--    Nội dung thứ ba_chuyển cảnh-->
+    <TextView
+        android:id="@+id/txtNoiDungThuBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Công việc của anh là dọn dẹp bát đĩa và đồ đạc. Anh làm rất cẩn thận. Đáng lẽ vứt thức ăn thừa vào một cái thùng thì anh lại để riêng những thức ăn còn sạch sẽ, có lúc là một phần tư con gà hoặc còn nguyên cả miếng bít tết để đưa lại cho nhà bếp."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtTiepTucChuyenCanh"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Tiếp tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        android:gravity="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="550dp"
+        />
+
+</RelativeLayout>

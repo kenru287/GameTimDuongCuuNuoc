@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DemoDoAn</string>
+    <string name="intro">Việt Nam những năm cuối thế kỷ XIX đầu thế kỷ XX, các cuộc đấu tranh chống thực dân Pháp liên tiếp nổ ra. Từ các cuộc khởi nghĩa như phong trào Cần Vương cho tới các phong trào Đông Du, Đông Kinh nghĩa thục, Duy tân, chống thuế... đều bị thất bại. Những trí sĩ yêu nước như Phan Bội Châu, Phan Châu Trinh đã ra đi tìm đường cứu nước.. mặc dù vậy, họ vẫn chưa tìm ra được con đường để giải phóng dân tộc. Trong bối cảnh đó, chàng thanh niên Nguyễn Tất Thành khi đó mới 21 tuổi đã quyết định ra đi tìm con đường cứu nước mới cho dân tộc. Bởi trong anh đang có một quyết tâm cháy bỏng: “Tự do cho đồng bào tôi. Độc lập cho Tổ Quốc tôi. Đấy là tất cả những điều tôi muốn, đấy là tất cả những điều tôi hiểu.”</string>
+    <string name="txtcanhdayhoc">Sau mấy tháng dạy học ở Trường Dục Thanh, Nguyễn Tất Thành rời trường đi Sài Gòn, thực hiện hoài bão từng nung nấu là tìm cách sang Pháp và các nước phương Tây để xem “họ làm như thế nào rồi trở về giúp đồng bào chúng ta”.</string>
+    <string name="txthainguoinoichuyen1">Tôi muốn đi ra ngoài, xem nước Pháp và các nước khác. Sau khi xem xét họ làm thế nào, tôi sẽ trở về giúp đồng bào chúng ta. Nhưng nếu đi một mình, thật ra cũng có điều mạo hiểm, ví như khi đau ốm… Anh muốn đi với tôi không?.</string>
+    <string name="txthainguoinoichuyen2">Đây, tiền đây... chúng ta sẽ làm việc. Chúng ta sẽ làm bất cứ việc gì để sống và để đi</string>
+    <string name="txtxinviec">Nguyễn Tất Thành xin việc làm ở tàu Amiran Latusơ Tơrêvin, một tàu lớn vừa chở hàng vừa chở khách của hãng Năm Sao đang chuẩn bị rời cảng Sài Gòn đi Mácxây Pháp.</string>
+    <string name="txtthaynhanthu">Sau khi nhận việc ở tàu Amiran Latusơ Tơrêvin, Nguyễn Tất Thành viết thư về cho thầy giáo Hải, dạy tiếng Pháp ở Trường Dục Thanh báo tin mình đã đi ra nước ngoài.</string>
+    <string name="txtnhanthenhanvien">Nguyễn Tất Thành bắt đầu làm việc ở tàu Amiran Latusơ Tơrêvin, nhận thẻ nhân viên của tàu với tên mới: Văn Ba.</string>
+    <string name="txtBangGac">Dùng để tăng 1 lượng máu nhỏ</string>
+    <string name="txtTuiMau">Dùng để tăng 1 lượng máu lớn</string>
+    <string name="txtManaLon">Dùng để tăng 1 lượng lớn thể lực</string>
+    <string name="txtManaNho">Dùng để tăng 1 lượng nhỏ thể lực</string>
+</resources>

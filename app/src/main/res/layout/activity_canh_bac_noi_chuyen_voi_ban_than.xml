@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e4b3d"
+    tools:context=".CanhBacNoiChuyenVoiBanThanActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:layout_marginTop="360dp"
+        android:background="#1f1412" />
+
+    <ImageView
+        android:id="@+id/iv_Nen_BacNoiChuyenBanThan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        app:srcCompat="@drawable/hainguoinoichuyenthunhat" />
+
+    <ImageView
+        android:id="@+id/imgshape1"
+        android:layout_width="244dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@drawable/shape_triangle"
+        android:alpha="0"/>
+
+
+
+    <ImageView
+        android:id="@+id/imgkhung1"
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/frame_cottruyen"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/font_fvf"
+        android:text="@string/txthainguoinoichuyen1"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/txttieptuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiếp tục"
+        android:layout_marginTop="570dp"
+        android:layout_alignEnd="@+id/txt1"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="13sp"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/txtDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/font_fvf"
+        android:text="Trước ngày 2 Tháng: 6   Năm: 1911"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/imgshape2"
+        android:layout_width="244dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="85dp"
+        app:srcCompat="@drawable/shape_triangle"
+        android:alpha="0"/>
+
+    <RelativeLayout
+        android:id="@+id/igmkhung3"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/frame_cottruyen"
+        android:alpha="0">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/txthainguoinoichuyen2"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"
+            android:alpha="0"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imgkhung2"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/frame_cottruyen"
+        android:alpha="1">
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="Lấy đâu ra tiền mà đi"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"
+            android:alpha="1"/>
+        <TextView
+            android:id="@+id/txttieptuc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tiếp tục"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font_fvf"
+            android:textSize="13sp"
+            android:alpha="1"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtchuyenman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="150dp"
+        android:text="Tiếp tục"
+        android:textColor="#DDD6D6"
+        android:fontFamily="@font/font_fvf"
+        android:gravity="center"
+        android:alpha="0"/>
+
+</RelativeLayout>

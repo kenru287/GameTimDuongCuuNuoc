@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demodoan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DemoDoAn">
+        <activity android:name=".ShipActivity"></activity>
+        <activity android:name=".TheNhanVienActivity" />
+        <activity android:name=".MissionMatch3Activity" />
+        <activity android:name=".CanhBacNoiChuyenVoiBanThanActivity" />
+        <activity android:name=".BenCangActivity" />
+        <activity android:name=".CanhThayNhanThuActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".Match3Activity" />
+        <activity android:name=".ShopActivity" />
+        <activity android:name=".BachodayhocActivity" />
+        <activity android:name=".MiniGameBoThanVaoLoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

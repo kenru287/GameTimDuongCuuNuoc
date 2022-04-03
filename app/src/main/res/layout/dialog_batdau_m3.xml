@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button_green">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="@font/font_fvf"
+                android:text="Nhiệm Vụ"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:orientation="vertical"
+                android:background="@drawable/line_green">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/font_fvf"
+                    android:text="Thu thập"
+                    android:textSize="18sp" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/igvMucTieu1"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="20dp"/>
+                    <TextView
+                        android:id="@+id/txtMucTieu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/igvMucTieu1"
+                        android:layout_marginStart="25dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/font_fvf"/>
+
+                    <ImageView
+                        android:id="@+id/igvMucTieu2"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="20dp" />
+                    <TextView
+                        android:id="@+id/txtMucTieu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_toEndOf="@id/igvMucTieu2"
+                        android:layout_marginStart="25dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/font_fvf" />
+
+                    <ImageView
+                        android:id="@+id/igvMucTieu3"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_toEndOf="@+id/txtMucTieu1"
+                        android:layout_marginStart="25dp" />
+                    <TextView
+                        android:id="@+id/txtMucTieu3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/igvMucTieu3"
+                        android:layout_marginStart="25dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/font_fvf" />
+
+                    <ImageView
+                        android:id="@+id/igvMucTieu4"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_toEndOf="@+id/txtMucTieu1"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="25dp" />
+                    <TextView
+                        android:id="@+id/txtMucTieu4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_toEndOf="@id/igvMucTieu4"
+                        android:layout_marginStart="25dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/font_fvf"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBatDau"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Bắt Đầu"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/font_fvf"
+                android:layout_gravity="center"
+                android:background="@drawable/line_green" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhCuoiCungCuaGame">
+
+<!--    Nền Cảnh Chính-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3c4361"
+        android:text="Năm 1918"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+            />
+
+<!--    Cảnh chính-->
+    <ImageView
+        android:id="@+id/igvCanhChinh"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/canhbactru"
+        android:layout_marginTop="70dp"
+        />
+
+<!--Khung dẫn truyện-->
+    <TextView
+        android:id="@+id/txtKhungDanTruyen"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:background="@drawable/textview_border_cuoicung"
+        android:alpha="1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="5dp"
+        />
+
+<!--   Nội dung dẫn truyện -->
+    <TextView
+        android:id="@+id/txtNoiDungThuMot"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:text="Theo lời kể của Misen Decsini, bấy giờ Nguyễn Tất Thành là đại diện được uỷ quyền của Hội Lao động hải ngoại đang náu mình trong một căn phòng cho thuê ở phố Saron."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:alpha="1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <!--   Nội dung dẫn truyện -->
+    <TextView
+        android:id="@+id/txtNoiDungThuHai"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:text="Lúc đó các đồng chí trong Đảng Xã hội chưa tìm được cho anh giấy tờ hợp pháp. Misen Decsini đã thu xếp cho anh đến một nơi ở mới, Quận 13, tại nhà một người bạn Tuynidi tên là Mốcta."
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:alpha="0"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <!--    Tiếp tục hội thoại-->
+    <TextView
+        android:id="@+id/txtTiepTucHoiThoai"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Tiếp tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="1"
+        android:gravity="center"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="530dp"
+        />
+    <!--    Nền đen-->
+    <TextView
+        android:id="@+id/txtNenDen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0"
+        />
+
+    <!--    Nội dung dẫn truyện-->
+    <TextView
+        android:id="@+id/txtNoiDungDanTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nguyễn Tất Thành lần đầu tiên gặp Misen Decsini đảng viên Đảng Xã hội Italia, lúc đó là đại diện cho những nhà cách mạng thuộc địa bên cạnh Đảng Xã hội Pháp."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/font_fvf"
+        android:alpha="0"
+        />
+
+    <!--    Tiếp tục chuyển cảnh-->
+    <TextView
+        android:id="@+id/txtTiepTucChuyenCanh"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Tiếp tục"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        android:gravity="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="550dp"
+        />
+
+</RelativeLayout >

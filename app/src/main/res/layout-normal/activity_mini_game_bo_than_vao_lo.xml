@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--Lượt chơi-->
+        <ImageView
+            android:id="@+id/LuotChoi"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/luotchoi"
+            android:layout_marginStart="20dp"
+            />
+        <!--    Số lần lượt chơi-->
+        <TextView
+            android:id="@+id/SoLanLuotChoi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25sp"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"
+            />
+        <!--    Mục tiêu-->
+        <ImageView
+            android:id="@+id/imgMucTieu"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/muctieu"
+            />
+
+        <!--    Số lần lượt chơi-->
+        <TextView
+            android:id="@+id/txtMucTieu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="8"
+            android:textSize="25sp"
+            android:fontFamily="@font/font_fvf"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="-50dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+            <!--    Lò than - Đồ họa-->
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/lo_dot"
+                android:layout_marginTop="-70dp"
+                android:layout_marginBottom="-100dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                />
+            <!--Thông báo thành công khi dừng thành công - Đồ họa-->
+            <TextView
+                android:id="@+id/txtThongBaoThanhCong"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_alignParentEnd="true"
+                android:text="Thành công"
+                android:fontFamily="@font/font_fvf"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:alpha="0"/>
+            <!--    Thông báo thất bại khi dừng hụt - Đồ họa-->
+            <TextView
+                android:id="@+id/txtThongBaoThatBai"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:text="Thất bại"
+                android:fontFamily="@font/font_fvf"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:alpha="0"/>
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="5"
+                android:textSize="20dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="100dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <!--    Hiệu ứng -1 lượt chơi-->
+            <TextView
+                android:id="@+id/txtHieuUngTruMot"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="-1"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:fontFamily="@font/font_fvf"
+                android:alpha="0"
+                />
+            <!--    Hiệu ứng -1 mục tiêu-->
+            <TextView
+                android:id="@+id/txtHieuUngTruMotMucTieu"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="-1"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:fontFamily="@font/font_fvf"
+                android:alpha="0"
+                />
+        </RelativeLayout>
+        <!--    Thông báo kết thúc game-->
+        <TextView
+            android:id="@+id/txtThongBaoKetThucGame"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#504c4c"
+            android:text="Thất Bại"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font_fvf"
+            android:gravity="center"
+            android:alpha="0"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Thanh đen để chứa vòng tròn - Đồ họa-->
+        <TextView
+            android:id="@+id/thanhden"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textview_border"
+            />
+        <!--Ảnh Vòng tròn để tính điểm - tương tác-->
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignEnd="@+id/thanhden"
+            android:src="@drawable/tarrget2" />
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/coalmove"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-140dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="85dp"
+            android:gravity="bottom">
+            <!--Ảnh túi đựng than - Đồ họa-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginBottom="-10dp"
+                android:src="@drawable/tuidunthan" />
+            <!--    Ảnh than đưa vào lò - Đồ họa-->
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/coal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/coal"
+                android:layout_marginStart="90dp"
+                android:alpha="1"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="85dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <!--Nút dừng thanh - Tương tác-->
+            <Button
+                android:id="@+id/btnDung"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#6d6868"
+                android:enabled="false"
+                android:fontFamily="@font/font_fvf"
+                android:text="Dừng"
+                app:strokeColor="@color/cardview_dark_background"
+                app:strokeWidth="3dp" />
+            <!--Nút bỏ than - Tương tác-->
+            <Button
+                android:id="@+id/btnBoThan"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#6d6868"
+                android:fontFamily="@font/font_fvf"
+                android:text="Bỏ Than"
+                app:strokeWidth="3dp"
+                app:strokeColor="@color/cardview_dark_background"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

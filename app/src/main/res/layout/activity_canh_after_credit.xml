@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhAfterCredit">
+
+<!--    Nền đen-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        />
+
+<!--   Kết thúc 1-->
+    <ImageView
+        android:id="@+id/igvKetThuc1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/after_credit_1"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="-200dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtKetThuc1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Thiết kế ý tưởng:         Duy Luân, Như Quỳnh"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:alpha="0"
+        />
+
+<!--    Kết thúc 2-->
+    <ImageView
+        android:id="@+id/igvKetThuc2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/after_credit_2"
+        android:layout_marginLeft="00dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="00dp"
+        android:alpha="0"
+        />
+
+    <ImageView
+        android:id="@+id/igvKetThuc2_phacthao"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/after_credit_2_phacthao"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtKetThuc2"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Thiết kế hình ảnh:    Duy Luân, Như Quỳnh"
+        android:layout_marginLeft="005dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:alpha="0"
+        />
+
+
+    <!--    Kết thúc 3-->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifKetThuc3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lo_dot"
+        android:layout_marginTop="-300dp"
+        android:layout_marginLeft="150dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtKetThuc3"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Thiết kế hoạt ảnh chuyển động: Duy Luân"
+        android:layout_marginLeft="005dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        />
+
+<!--    Kết thúc 4-->
+    <ImageView
+        android:id="@+id/igvKetThuc4"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:src="@drawable/after_credit_4"
+        android:layout_marginLeft="00dp"
+        android:layout_marginTop="100dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtKetThuc4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Thiết kế trò chơi: Vương Quỳnh, Duy Luân"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        />
+<!--Kết thúc 5-->
+    <TextView
+        android:id="@+id/txtKetThuc5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cốt truyện: Lấy từ nguồn Dangcongsan.vn                      Âm thanh: Lấy từ nguồn Youtube, SoundCloud."
+        android:gravity="center"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:alpha="0"
+        />
+
+    <!--Kết thúc 6-->
+    <ImageView
+        android:id="@+id/igvKetThuc6"
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+        android:src="@drawable/after_credit_6"
+        android:alpha="0"
+        />
+
+   <TextView
+       android:id="@+id/txtKetThuc6"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:text="Hết"
+       android:gravity="center"
+       android:fontFamily="@font/font_fvf"
+       android:textColor="@color/white"
+       android:textSize="60dp"
+       android:alpha="0"
+       />
+</RelativeLayout>

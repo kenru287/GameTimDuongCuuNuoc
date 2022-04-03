@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".ShipActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/map2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00612304">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:src="@drawable/nenddmmyyyy" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="585dp"
+            android:src="@drawable/nenbien" />
+
+        <ImageView
+            android:id="@+id/thuyenbien"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="590dp"
+            android:src="@drawable/thuyen_bien" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="@font/font_2p"
+            android:gravity="center"
+            android:text="Ngày: dd Tháng: mm Năm: yyyy"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/imagemoc1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="320dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/mocdo" />
+
+        <ImageView
+            android:id="@+id/imagemoc2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="370dp"
+            android:src="@drawable/mocdo" />
+
+        <ImageView
+            android:id="@+id/imagemoc3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="340dp"
+            android:src="@drawable/mocdo" />
+
+        <ImageView
+            android:id="@+id/imagemoc4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"
+            android:src="@drawable/mocdo" />
+
+        <ImageView
+            android:id="@+id/imageship"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="320dp"
+            android:src="@drawable/thuyen" />
+
+    </RelativeLayout>
+</RelativeLayout>

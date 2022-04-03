@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhBacGuiKhamNhoChuyenSoTien"
+>
+
+<!--    Ngày tháng năm-->
+    <TextView
+        android:id="@+id/txtNgayThang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6d4b49"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text="Tháng 12 Năm 1911"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="20sp"
+        android:alpha="1"
+        />
+
+<!--    Hoạt cảnh Bác ghi thư-->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifHoatCanh"
+        android:layout_width="1600dp"
+        android:layout_height="1600dp"
+        android:layout_marginTop="-280dp"
+        android:src="@drawable/canhbacguithu"
+
+  />
+
+<!--    Khung truyện-->
+    <ImageView
+        android:id="@+id/imgKhungTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/frame_cottruyen"
+        android:alpha="1"
+        />
+
+<!--    Nội dung cảnh này-->
+
+    <TextView
+        android:id="@+id/txtNoiDungCanhMot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+
+        android:alpha="0"
+        android:fontFamily="@font/font_fvf"
+        android:text="Từ Niu Oóc (New York), Nguyễn Tất Thành gửi thư cho Khâm sứ Trung Kỳ nhờ cho biết tình hình và địa chỉ của cha là Nguyễn Sinh Huy."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtNoiDungCanhHai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:alpha="0"
+        android:fontFamily="@font/font_fvf"
+        android:text="Thư cho biết đã gửi cho ông Nguyễn Sinh Huy ba ngân phiếu nhưng mới chỉ nhận được một lần trả lời.
+Thư ký tên Paul Tất Thành, kèm theo địa chỉ hòm thư lưu: Số 1, đường Đô đốc Cuốcbê (Courbet), Lơ Havơrơ, Pháp."
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/txtNoiDungCanhBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="375dp"
+        android:alpha="1"
+        android:fontFamily="@font/font_fvf"
+        android:text="Cùng với bức thư gửi cho phụ thân, Nguyễn Tất Thành còn gửi một bức thư cho ông Nguyễn Sinh Khiêm thời kỳ này đang giúp việc vặt ở Toà Khâm sứ Trung Kỳ."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtNoiDungCanhBon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+
+        android:alpha="0"
+        android:fontFamily="@font/font_fvf"
+        android:text="Nguyễn Tất Thành nhờ anh trai vận động xin cho Thành vào học Trường Thuộc địa tại Pari.
+Ông Khiêm đã gửi bức thư cho Toàn quyền Anbe Xarô (Albert Sarraut) và lá thư đã được chuyển tới Khâm sứ Trung Kỳ ."
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/txtTiepTuc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="300dp"
+
+        android:text="Tiếp Tục."
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="18dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtTiepTucHai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="300dp"
+
+        android:text="Tiếp Tục."
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="17dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtTiepTucBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="300dp"
+
+        android:text="Tiếp Tục."
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="18dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtTiepTucBon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="300dp"
+
+        android:text="Tiếp Tục."
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="17dp"
+        android:alpha="0"
+        />
+
+</RelativeLayout>

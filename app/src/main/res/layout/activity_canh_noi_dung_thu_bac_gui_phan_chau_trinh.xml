@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhNoiDungThuBacGuiPhanChauTrinh">
+
+<!--Hoạt cảnh ghi thư-->
+    <TextView
+        android:id="@+id/txtNenGhiThu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6d4b49"
+
+        android:text="Khoảng cuối năm 1912"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="22dp"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifCanhBacGuiThu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/canhbacguithu"
+        android:layout_marginTop="-300dp"
+        android:alpha="1"
+        />
+
+
+<!--    Khung dẫn truyện-->
+    <ImageView
+        android:id="@+id/igvKhungDanTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frame_cottruyen"
+        android:layout_marginTop="200dp"
+        />
+
+<!--Nội dung khung dẫn truyện-->
+    <TextView
+        android:id="@+id/txtNoiDungDanTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nguyễn Tất Thành gửi thư cho cụ Phan Châu Trinh. Toàn văn bức thư như sau"
+        android:fontFamily="@font/font_fvf"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+
+        android:alpha="0"
+        />
+
+<!--    Tiếp tục-->
+    <TextView
+        android:id="@+id/txtTiepTuc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="270dp"
+        android:text="Tiếp Tục"
+        android:textSize="22dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+
+        android:alpha="0"
+        />
+
+<!--    Phần sau-->
+    <!--Nền của Thư trong bì-->
+
+    <!--    Thư trong bì-->
+    <TextView
+        android:id="@+id/txtNenNoiDungThu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="#e9a772" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifNoidungThu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/noidungthu"
+        android:layout_marginTop="-350dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginRight="-150dp"
+        android:alpha="0"
+        />
+
+    <!--    Khung dẫn truyện-->
+    <ImageView
+        android:id="@+id/igvKhungThu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frame_cottruyen"
+        android:layout_marginTop="200dp"
+        android:alpha="0"
+        />
+
+    <!--Nội dung khung dẫn truyện-->
+    <TextView
+        android:id="@+id/txtNoiDungThu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="340dp"
+
+        android:text="Hy Mã Nghi Bá đại nhân,
+
+Cách lâu không tiếp được tôn tín, không hay bác hành chỉ thế nào và sự thể bên ta thế nào?"
+
+        android:fontFamily="@font/font_fvf"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+        android:alpha="0"
+/>
+
+    <!--    Tiếp tục-->
+    <TextView
+        android:id="@+id/txtTiepTucHai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="270dp"
+        android:text="Tiếp Tục"
+        android:textSize="22dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtKhungNoiDungLon"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/textview_border2"
+        android:alpha="1"
+        />
+
+    <TextView
+        android:id="@+id/txtNoiDungThuHai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="340dp"
+
+        android:text="Và cháu muốn biết như cháu có thể gặp bác trước lúc bác đi hay không, vì cháu rất cần một ít tôn hội, xin bác trả lời liền cho cháu biết vì chừng nào trong tuần lễ cháu sẽ xuống tàu đi chưa biết đi đâu. Kính chúc bác, M. Trường, em Dật và các đồng bào yên hảo"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+
+        android:alpha="0"
+        />
+
+    <!--    Tiếp tục-->
+    <TextView
+        android:id="@+id/txtTiepTucBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="270dp"
+        android:text="Tiếp Tục"
+        android:textSize="22dp"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+
+        android:alpha="0"
+        />
+
+<!--    Phần 4-->
+    <TextView
+        android:id="@+id/txtNenDen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:alpha="0"
+        />
+
+    <TextView
+        android:id="@+id/txtPhanBon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:gravity="center"
+
+        android:text="Phần 4"
+
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+
+        android:alpha="0"
+        />
+
+<!--Chuyển cảnh đến Anh-->
+    <TextView
+        android:id="@+id/txtHoiThoiSangAnh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:gravity="center"
+
+        android:text="Nguyễn Tất Thành theo tàu rời Mỹ trở về Lơ Havơrơ, sau đó sang Anh."
+
+        android:fontFamily="@font/font_fvf"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+
+        android:alpha="0"
+        />
+</RelativeLayout>

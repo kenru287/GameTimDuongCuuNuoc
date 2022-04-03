@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanhBacGuiKhamNhoChuyenSoTien"
+>
+<!--    Ngày tháng năm-->
+    <TextView
+        android:id="@+id/txtNgayThang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6d4b49"
+
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text="Ngày 31 Tháng 10 Năm 1911"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="20dp"
+        android:alpha="1"
+        />
+
+<!--    Hoạt cảnh Bác ghi thư-->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifHoatCanh"
+        android:layout_width="1600dp"
+        android:layout_height="1600dp"
+        android:layout_marginTop="-280dp"
+
+        android:src="@drawable/canhbacguithu"
+
+  />
+
+<!--    Khung truyện-->
+    <ImageView
+        android:id="@+id/imgKhungTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/frame_cottruyen"
+        android:alpha="1"
+        />
+
+<!--    Nội dung cảnh này-->
+
+    <TextView
+        android:id="@+id/txtNoiDungCanh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+
+        android:alpha="1"
+        android:fontFamily="@font/font_fvf"
+        android:text="Từ Sài Gòn Nguyễn Tất Thành gửi thư cho Khâm sứ Trung Kỳ nhờ chuyển số tiền 15 đồng cho cha là Nguyễn Sinh Huy. Số tiền trên đã được ông Nguyễn Sinh Huy ký nhận ngày 9-11-1911. "
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtTiepTuc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="300dp"
+
+        android:text="Tiếp Tục."
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_fvf"
+        android:textSize="18dp"
+        android:alpha="1"
+        />
+
+    <TextView
+        android:id="@+id/txtPhanBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Phần 3"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:fontFamily="@font/font_fvf"
+        android:alpha="0"
+        />
+</RelativeLayout>
